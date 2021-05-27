@@ -12,7 +12,7 @@ body{
 
 #details{
     background-color: aquamarine;
-    text-align: center;
+    box-align: center;
 }
 
 .image{
