@@ -17,5 +17,6 @@ body{
 .image{
     background-color: bisque;
     border-radius: 550px;
-    border-width: 3em;
+    width: 1.5rem;
+    height: auto;
 }
