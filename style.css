@@ -31,7 +31,8 @@ body{
     animation: change_couleur 3s infinite;
     transform-box: fill-box;
     transform-origin: auto;
-    transition-timing-function: ease !important;
+    transition-timing-function: ease;
+    transition-property: all;
 }
 
 @keyframes change_couleur {
