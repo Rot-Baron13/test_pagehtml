@@ -17,5 +17,5 @@ body{
 .image{
     background-color: bisque;
     border-radius: 550px;
-    size: 2em;
+    border-width: 3em;
 }
