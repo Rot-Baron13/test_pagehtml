@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Curriculum Vitae</title>
   <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
 </head>
 <body>
     <header>
@@ -13,6 +14,12 @@
     <img src="logo_smf.png" class="image">
     <main>
         <section id="details">
+                <h3>My Google Maps Demo</h3>
+            <!--The div element for the map -->
+            <div id="map"></div>
+
+            <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"async></script>
             <ul>
                 <li>Mon nom est <strong>Thibault</strong> J’ai 25 ans.
                 <li>J’ai de l’expérience en <strong>communication</strong>et je suis <strong>autonome</strong></li>
