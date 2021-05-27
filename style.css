@@ -27,5 +27,44 @@ body{
 }
 
 .button{
-    background-color: blue !important;
+    background-color: white !important;
+    animation: change_couleur 3s infinite;
+    transform-box: fill-box;
+    transform-origin: auto;
+}
+
+@keyframes change_couleur {
+    0% {
+        background-color: white;
+      }
+    10% {
+        background-color: rgb(136, 136, 184);
+    }
+    20% {
+        background-color: rgb(104, 104, 164);
+    }
+    30% {
+        background-color: rgb(66, 66, 133);
+    }
+    40% {
+        background-color: rgb(29, 29, 92);
+    }
+    50% {
+        background-color: rgb(6, 6, 45);
+    }
+    60% {
+        background-color: rgb(29, 29, 92);
+    }
+    70% {
+        background-color: rgb(66, 66, 133);
+    }
+    80% {
+        background-color: rgb(104, 104, 164);
+    }
+    90% {
+        background-color: rgb(136, 136, 184);
+    }
+    100% {
+        background-color: white;
+      }   
 }
