@@ -28,10 +28,9 @@ body{
 
 .button{
     background-color: white !important;
-    animation: change_couleur 3s infinite;
+    animation: change_couleur 3s linear infinite;
     transform-box: fill-box;
     transform-origin: auto;
-    transition-timing-function: linear;
     transition-property: all;
 }
 
