@@ -1,4 +1,20 @@
+:root{
+    /*### Couleurs */
+ --Noir : #222222;
+ --Gris : #444444;
+ --Vert : #0AA8A7;
+ --Vert-clair : #EDF6F5;
+}
+/*/ style appliqué /*/
+body{
+    font-family: Lato;
+}
+
 details{
     background-color: aquamarine;
 }
 
+.image{
+    background-color: bisque;
+    
+}
