@@ -5,11 +5,11 @@ function initMap() {
     // The map, centered at Uluru
     const map = new google.maps.Map(document.getElementById("map"), {
       zoom: 4,
-      center: NWS,
+      center: uluru,
     });
     // The marker, positioned at Uluru
     const marker = new google.maps.Marker({
-      position: NWS,
+      position: uluru,
       map: map,
     });
   }
